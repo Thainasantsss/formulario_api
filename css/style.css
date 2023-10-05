@@ -21,11 +21,12 @@
 h1{
     font-size: 24px;
     margin-bottom: 10px;
+    color: whitesmoke;
 }
 p{
     font-size: 16px;
 }
-input [type="text"] {
+input[type="text"] {
     width: 80%;
     padding: 10px;
     margin: 10px 0;
@@ -34,18 +35,24 @@ input [type="text"] {
 
 }
 button{
-    background-color: bisque;
+    background-color:  rgb(167, 196, 196);
     color: black;
-    padding: 5px 10px;
-    border: none;
+    padding: 10px 20px;
+    border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    font-size: 15px;
 }
 button:hover{
-    background-color: cyan;
+    background-color: rgb(61, 94, 94);
+    color: azure;
 }
 #address-info{
     margin-top: 20px;
-    text-align: left;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(167, 196, 196);
+    border-radius: 5px;
+    border: 1px solid
 }
